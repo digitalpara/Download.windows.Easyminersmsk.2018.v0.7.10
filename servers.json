@@ -1,0 +1,95 @@
+{
+  "servers": [
+    {
+      "name": "ETH - Ethereum (ethermine.org)",
+      "algo": "ethash",
+      "soft": "claymore",
+      "param": "-etht 0 -eres 0 -ethi 16 -dcri 1 -epsw x -tstop 85 -tt 75 -fanmin 50 -fanmax 100 -ejobtimeout 1 -mode 1 -dbg -1",
+      "server": "stratum+tcp://eu1.ethermine.org",
+      "port": "4444",
+      "api_url": "",
+      "stat_url": "https://ethermine.org/miners/"
+    },
+    {
+      "name": "ETH - Ethereum",
+      "algo": "ethash",
+      "soft": "claymore",
+      "param": "-etht 0 -eres 0 -ethi 16 -dcri 1 -dcri 1 -epsw x -tstop 85 -tt 75 -fanmin 50 -fanmax 100 -ejobtimeout 1 -mode 1 -dbg -1",
+      "server": "stratum+tcp://eth.minershq.net",
+      "port": "8008",
+      "api_url": "http://eth.minershq.net/api/accounts/",
+      "stat_url": "http://eth.minershq.net/#/account/"
+    },
+    {
+      "name": "ETC - Ethereum Classic",
+      "algo": "ethash",
+      "soft": "claymore",
+      "param": "-etht 0 -eres 0 -ethi 16 -dcri 1 -dcri 1 -epsw x -tstop 85 -tt 75 -fanmin 50 -fanmax 100 -ejobtimeout 1 -mode 1 -dbg -1",
+      "server": "stratum+tcp://etc.minershq.net",
+      "port": "8005",
+      "api_url": "http://etc.minershq.net/api/accounts/",
+      "stat_url": "http://etc.minershq.net/#/account/"
+    },
+    {
+      "name": "UBQ - Ubiq",
+      "algo": "ethash",
+      "soft": "claymore",
+      "param": "-etht 0 -eres 0 -ethi 16 -dcri 1 -allcoins 1 -epsw x -dcri 1 -tstop 85 -tt 75 -fanmin 50 -fanmax 100 -ejobtimeout 5 -mode 1 -dbg -1",
+      "server": "stratum+tcp://ubiq.minershq.net",
+      "port": "8009",
+      "api_url": "http://ubiq.minershq.net/api/accounts/",
+      "stat_url": "http://ubiq.minershq.net/#/account/"
+    },
+    {
+      "name": "MC - Musicoin",
+      "algo": "ethash",
+      "soft": "claymore",
+      "param": "-etht 0 -eres 0 -ethi 16 -dcri 1 -allcoins 1 -epsw x -dcri 1 -tstop 85 -tt 75 -fanmin 50 -fanmax 100 -ejobtimeout 5 -mode 1 -dbg -1",
+      "server": "stratum+tcp://mc.minershq.net",
+      "port": "8006",
+      "api_url": "http://mc.minershq.net/api/accounts/",
+      "stat_url": "http://mc.minershq.net/#/account/"
+    },
+    {
+      "name": "DBIX - Dubaicoin",
+      "algo": "ethash",
+      "soft": "claymore",
+      "param": "-etht 0 -eres 0 -ethi 16 -dcri 1 -allcoins 1 -epsw x -dcri 1 -tstop 85 -tt 75 -fanmin 50 -fanmax 100 -ejobtimeout 5 -mode 1 -dbg -1",
+      "server": "stratum+tcp://dbix.minershq.net",
+      "port": "8007",
+      "api_url": "http://dbix.minershq.net/api/accounts/",
+      "stat_url": "http://dbix.minershq.net/#/account/"
+    },
+    {
+      "name": "EXP - Expanse",
+      "algo": "ethash",
+      "soft": "claymore",
+      "param": "-etht 0 -eres 0 -ethi 16 -allcoins 1 -epsw x -dcri 1 -tstop 85 -tt 75 -fanmin 50 -fanmax 100 -ejobtimeout 3 -mode 1 -dbg -1",
+      "server": "stratum+tcp://exp.minershq.net",
+      "port": "8004",
+      "api_url": "http://exp.minershq.net/api/accounts/",
+      "stat_url": "http://exp.minershq.net/#/account/"
+    },
+    {
+      "name": "SOIL - Soilcoin",
+      "algo": "ethash",
+      "soft": "claymore",
+      "param": "-etht 0 -eres 0 -ethi 16 -allcoins 1 -epsw x -dcri 1 -tstop 85 -tt 75 -fanmin 50 -fanmax 100 -ejobtimeout 3 -mode 1 -dbg -1",
+      "server": "stratum+tcp://soil.minershq.net",
+      "port": "8003",
+      "api_url": "http://soil.minershq.net/api/accounts/",
+      "stat_url": "http://soil.minershq.net/#/account/"
+    },
+    {
+      "name": "PIRL - Pirlcoin",
+      "algo": "ethash",
+      "soft": "claymore",
+      "param": "-etht 0 -eres 0 -ethi 16 -allcoins 1 -epsw x -dcri 1 -tstop 85 -tt 75 -fanmin 50 -fanmax 100 -ejobtimeout 3 -mode 1 -dbg -1",
+      "server": "stratum+tcp://pirl.minershq.net",
+      "port": "8091",
+      "api_url": "http://pirl.minershq.net/api/accounts/",
+      "stat_url": "http://pirl.minershq.net/#/account/"
+    }
+
+  ]
+}

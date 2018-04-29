@@ -1,0 +1,1 @@
+﻿Please if this program update the claymore miner place this files in this folder in the new updatet claymore folder and delete old folder update.
